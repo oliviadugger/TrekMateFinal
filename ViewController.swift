@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+   
+    @IBOutlet weak var gifView: UIImageView!
+    
+
+    
+    
     /*
     var location = CGPoint(x: 0, y: 0)
     
@@ -29,18 +37,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        gifView.loadGif(name: "backgroundgif")
+        
         // Do any additional setup after loading the view.
         
     }
 
     @IBAction func chooseTapped(_ sender: UIButton) {
-        DispatchQueue.main.asyncAfter(deadline:.now() + 1.0, execute: {
+        DispatchQueue.main.asyncAfter(deadline:.now() + 0.5, execute: {
             self.performSegue(withIdentifier: "homeToCities", sender: self)
         })
     }
     
     @IBAction func destTapped(_ sender: UIButton) {
-        DispatchQueue.main.asyncAfter(deadline:.now() + 1.0, execute: {
+        DispatchQueue.main.asyncAfter(deadline:.now() + 0.5, execute: {
             self.performSegue(withIdentifier: "homeToCities", sender: self)
         })
     }
