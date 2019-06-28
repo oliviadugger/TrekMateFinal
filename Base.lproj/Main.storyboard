@@ -85,21 +85,21 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Locations 🏙" id="NOD-l3-48k" userLabel="Title"/>
                     <connections>
-                        <segue destination="GQf-ZH-frn" kind="show" identifier="citiesToAmster" id="Rfr-An-tnV"/>
-                        <segue destination="Sio-ln-e8Z" kind="show" identifier="citiesToBerlin" id="O3k-wj-BFu"/>
-                        <segue destination="Rs1-ai-q5h" kind="show" identifier="citiesToDubai" id="dzl-7I-9If"/>
-                        <segue destination="Qtm-Rk-0sj" kind="show" identifier="citiesToLondon" id="hLY-MZ-z0v"/>
-                        <segue destination="zTu-gJ-t8H" kind="show" identifier="citiesToMadrid" id="d66-yx-Ba4"/>
-                        <segue destination="QGm-hx-CyN" kind="show" identifier="citiesToMoscow" id="Al2-Jk-5p3"/>
-                        <segue destination="8NV-Bq-xkh" kind="show" identifier="citiesToParis" id="Zs4-ur-pVf"/>
-                        <segue destination="XGb-T3-snD" kind="show" identifier="citiesToRome" id="Hyg-Sc-iZ6"/>
+                        <segue destination="2xn-AI-7yh" kind="show" identifier="citiesToAmster" id="Rfr-An-tnV"/>
+                        <segue destination="AfB-XQ-zqg" kind="show" identifier="citiesToBerlin" id="O3k-wj-BFu"/>
+                        <segue destination="qtf-Z9-fiy" kind="show" identifier="citiesToDubai" id="dzl-7I-9If"/>
+                        <segue destination="inc-IN-MqA" kind="show" identifier="citiesToLondon" id="hLY-MZ-z0v"/>
+                        <segue destination="Mo4-cg-ROC" kind="show" identifier="citiesToMadrid" id="d66-yx-Ba4"/>
+                        <segue destination="hHB-Os-Ih0" kind="show" identifier="citiesToMoscow" id="Al2-Jk-5p3"/>
+                        <segue destination="Xyp-qt-ioa" kind="show" identifier="citiesToParis" id="Zs4-ur-pVf"/>
+                        <segue destination="WH2-0h-ftg" kind="show" identifier="citiesToRome" id="Hyg-Sc-iZ6"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YXY-DW-xws" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2847.1999999999998" y="78.710644677661179"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="0eS-lR-D7d">
             <objects>
                 <viewController id="zTu-gJ-t8H" sceneMemberID="viewController">
@@ -107,7 +107,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="madridback" translatesAutoresizingMaskIntoConstraints="NO" id="fMy-SQ-D11">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="madridback" translatesAutoresizingMaskIntoConstraints="NO" id="fMy-SQ-D11">
                                 <rect key="frame" x="-120" y="-137" width="558" height="978"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -257,12 +257,13 @@ Ambulance → 112
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="KKy-VW-KDj"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="jYC-wh-xqO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kot-2G-eBd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3589.5999999999999" y="625.63718140929541"/>
+            <point key="canvasLocation" x="4528.8000000000002" y="625.63718140929541"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="lhX-li-V1b">
             <objects>
                 <viewController id="QGm-hx-CyN" sceneMemberID="viewController">
@@ -270,7 +271,7 @@ Ambulance → 112
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="moscowback" translatesAutoresizingMaskIntoConstraints="NO" id="Bu5-Ok-AJo">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="moscowback" translatesAutoresizingMaskIntoConstraints="NO" id="Bu5-Ok-AJo">
                                 <rect key="frame" x="-136" y="-47" width="621" height="844"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -278,45 +279,25 @@ Ambulance → 112
                                 <rect key="frame" x="30" y="76" width="302" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="37"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="textColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Important Phrases:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tm-as-NI8">
-                                <rect key="frame" x="16" y="119" width="157" height="22"/>
+                                <rect key="frame" x="16" y="119" width="185" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AM0-S6-F7i">
-                                <rect key="frame" x="16" y="139" width="313" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Hello &amp; goodbye  -  Privet &amp; Proshchay
-Do you speak English?  -  Habla espanol?
-I’m allergic to ___ (nuts, dairy, wheat, gluten)  -  Soy alergico/a a (nueces, productos lacteos, trigo, gluten)
-Is the water safe to drink?  -  Es el agua potable?
-I don’t understand  -  Yo no entiendo
-How much does this cost?  -  Cuanta cuesta
-Where is…..? (bathroom, bus station, hotel, airport)  -  Gde….? (vannaya komnata, avtovokzal, gostinitsa, aeroport)
-Thank you  -  Gracias
-Excuse me  -  Con permiso Yes &amp; no  -  Si, no
-
-911→ 112
-Ambulance → 112
-</string>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you speak English?  - Vy govorite po-angliyski" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1u-MP-fxE">
-                                <rect key="frame" x="16" y="168" width="419" height="22"/>
+                                <rect key="frame" x="16" y="173" width="419" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lY0-ig-nVI">
-                                <rect key="frame" x="16" y="192" width="343" height="70"/>
+                                <rect key="frame" x="16" y="198" width="343" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">I’m allergic to (nuts, dairy, wheat, gluten)  -  U menya allergiya na (orekhi, molochnyye produkty, pshenitsa, glyuten) 
 </string>
@@ -373,16 +354,37 @@ Ambulance → 112
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AM0-S6-F7i">
+                                <rect key="frame" x="16" y="144" width="313" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hello &amp; goodbye  -  Privet &amp; Proshchay
+Do you speak English?  -  Habla espanol?
+I’m allergic to ___ (nuts, dairy, wheat, gluten)  -  Soy alergico/a a (nueces, productos lacteos, trigo, gluten)
+Is the water safe to drink?  -  Es el agua potable?
+I don’t understand  -  Yo no entiendo
+How much does this cost?  -  Cuanta cuesta
+Where is…..? (bathroom, bus station, hotel, airport)  -  Gde….? (vannaya komnata, avtovokzal, gostinitsa, aeroport)
+Thank you  -  Gracias
+Excuse me  -  Con permiso Yes &amp; no  -  Si, no
+
+911→ 112
+Ambulance → 112
+</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="uVE-1n-t53"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="hMu-JZ-NAA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HRf-Op-f7d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4279.1999999999998" y="631.93403298350825"/>
+            <point key="canvasLocation" x="6157.6000000000004" y="631.93403298350825"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="8wG-aH-gIc">
             <objects>
                 <viewController id="8NV-Bq-xkh" sceneMemberID="viewController">
@@ -390,7 +392,7 @@ Ambulance → 112
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parisback" translatesAutoresizingMaskIntoConstraints="NO" id="ekh-15-otD">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parisback" translatesAutoresizingMaskIntoConstraints="NO" id="ekh-15-otD">
                                 <rect key="frame" x="-531" y="45" width="1058" height="650"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -402,14 +404,7 @@ Ambulance → 112
                                 <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Important Phrases:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJb-sm-5Q9">
-                                <rect key="frame" x="26" y="127" width="157" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMp-d2-ZJX">
-                                <rect key="frame" x="21" y="536" width="251" height="27"/>
+                                <rect key="frame" x="26" y="127" width="185" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -424,24 +419,6 @@ Ambulance → 112
 
 </string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcZ-F6-uh2">
-                                <rect key="frame" x="26" y="571" width="79" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">911→ 112
-</string>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="by1-2G-uE6">
-                                <rect key="frame" x="26" y="601" width="141" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Ambulance → 15
-</string>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -559,12 +536,13 @@ Ambulance → 112
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="qrL-0o-PGm"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="D38-Bb-Ivi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BQ0-Ry-5Rd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4996" y="631.93403298350825"/>
+            <point key="canvasLocation" x="7813.6000000000004" y="631.93403298350825"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="kFB-oT-Xgo">
             <objects>
                 <viewController id="XGb-T3-snD" sceneMemberID="viewController">
@@ -572,22 +550,22 @@ Ambulance → 112
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="romeback" translatesAutoresizingMaskIntoConstraints="NO" id="yd1-ta-O8G">
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="romeback" translatesAutoresizingMaskIntoConstraints="NO" id="yd1-ta-O8G">
                                 <rect key="frame" x="-372" y="-182" width="1150" height="1109"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Important Phrases:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QjM-Gw-STc">
-                                <rect key="frame" x="9" y="125" width="157" height="22"/>
+                                <rect key="frame" x="9" y="125" width="185" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rome (Italian)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IDr-dJ-dGq">
                                 <rect key="frame" x="70" y="76" width="234" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="37"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0h-68-QVo">
@@ -668,10 +646,11 @@ Ambulance → 112
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="9j4-kH-pPx"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="dob-uB-MtE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F4T-ut-ehR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5701.6000000000004" y="631.93403298350825"/>
+            <point key="canvasLocation" x="9458.3999999999996" y="631.93403298350825"/>
         </scene>
         <!--Amsterdam View Controller-->
         <scene sceneID="UnR-0M-8zT">
@@ -981,39 +960,16 @@ Cg
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4V-o8-P8x">
-                                <rect key="frame" x="253" y="451" width="76" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">911 → 112
-</string>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7e-rJ-dHV">
-                                <rect key="frame" x="273" y="460" width="132" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Ambulance → 112
-</string>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCH-WE-zOQ">
-                                <rect key="frame" x="208" y="437" width="202" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cig-JX-foz"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="v16-l0-ML3"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E5h-sG-IYZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3600.8000000000002" y="-475.41229385307349"/>
+            <point key="canvasLocation" x="4540" y="-475.41229385307349"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6kx-7z-PG1">
@@ -1033,7 +989,7 @@ Cg
             </objects>
             <point key="canvasLocation" x="1908" y="78.710644677661179"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="IQb-aX-fhd">
             <objects>
                 <viewController id="Sio-ln-e8Z" sceneMemberID="viewController">
@@ -1041,7 +997,7 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="berlinback" translatesAutoresizingMaskIntoConstraints="NO" id="8Nu-X8-W3L">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="berlinback" translatesAutoresizingMaskIntoConstraints="NO" id="8Nu-X8-W3L">
                                 <rect key="frame" x="-443" y="-151" width="1059" height="992"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1053,9 +1009,9 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Important Phrases" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISu-kr-9pK">
-                                <rect key="frame" x="16" y="121" width="152" height="22"/>
+                                <rect key="frame" x="16" y="121" width="178" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1126,35 +1082,10 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5CA-fY-cAI">
-                                <rect key="frame" x="14" y="464" width="176" height="39"/>
+                                <rect key="frame" x="14" y="464" width="251" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Yes &amp; no  -  Ja &amp; Nein
 
-</string>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pp1-CX-YSi">
-                                <rect key="frame" x="14" y="499" width="172" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BBG-Zx-ZJC">
-                                <rect key="frame" x="16" y="529" width="75" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">911 → 110
-</string>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s1i-LL-Bc9">
-                                <rect key="frame" x="14" y="576" width="126" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Ambulance → 112
 </string>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1164,12 +1095,13 @@ Cg
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="4D8-f2-RpT"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="oPe-u6-A69"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D46-U7-5AQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4304.8000000000002" y="-475.41229385307349"/>
+            <point key="canvasLocation" x="6183.1999999999998" y="-475.41229385307349"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="OtS-L8-MhI">
             <objects>
                 <viewController id="Rs1-ai-q5h" sceneMemberID="viewController">
@@ -1177,7 +1109,7 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dubaiback" translatesAutoresizingMaskIntoConstraints="NO" id="mzx-QY-60v">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dubaiback" translatesAutoresizingMaskIntoConstraints="NO" id="mzx-QY-60v">
                                 <rect key="frame" x="-459" y="-172" width="1026" height="1010"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -1189,14 +1121,14 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Important Phrases" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g62-Vf-gV1">
-                                <rect key="frame" x="14" y="117" width="152" height="22"/>
+                                <rect key="frame" x="16" y="124" width="178" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sx-Wu-ZM9">
-                                <rect key="frame" x="14" y="147" width="341" height="20"/>
+                                <rect key="frame" x="16" y="154" width="341" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Hello and goodbye  -  marhabaan &amp; wadaeaan
 
@@ -1206,153 +1138,38 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Do you speak English? - hal tatahadath alanjlyzia?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q7t-G8-AlZ">
-                                <rect key="frame" x="14" y="175" width="373" height="20"/>
+                                <rect key="frame" x="16" y="182" width="373" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWD-bW-khp">
-                                <rect key="frame" x="14" y="194" width="345" height="70"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWD-bW-khp">
+                                <rect key="frame" x="16" y="201" width="359" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="I’m">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="LucidaGrande"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Kailasa"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="allergic">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="LucidaGrande"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Kailasa"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="to">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="LucidaGrande"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Kailasa"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="(nuts,">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="LucidaGrande"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Kailasa"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="dairy,">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="LucidaGrande"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Kailasa"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="wheat,">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="LucidaGrande"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content=" ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Kailasa"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="gluten)">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="LucidaGrande"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="  ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Kailasa"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="-">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="LucidaGrande"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="  ">
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Kailasa"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">laday hasasiat min (almukasarat , muntajat al'alban , alqamh , alghlutin) 
+                                <string key="text">I’m allergic to (nuts, dairy, wheat, gluten)  -  laday hasasiat min (almukasarat , muntajat al'alban , alqamh , alghlutin) 
+ 
 </string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="system" size="16"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content"> 
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="16" name="Kailasa"/>
-                                            <real key="NSKern" value="0.0"/>
-                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <real key="NSStrokeWidth" value="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" red="0.94201409816741943" green="0.97968190908432007" blue="0.93902558088302612" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Is the water safe to drink?  -  hi almiah salihat lilsharb" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfL-Ty-TVC">
-                                <rect key="frame" x="14" y="252" width="354" height="71"/>
+                                <rect key="frame" x="16" y="259" width="354" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I don’t understand  -  'ana la 'afahum" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pr6-Tf-A1N">
-                                <rect key="frame" x="16" y="317" width="274" height="20"/>
+                                <rect key="frame" x="18" y="324" width="274" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQ3-Es-q4j">
-                                <rect key="frame" x="15" y="345" width="369" height="39"/>
+                                <rect key="frame" x="17" y="352" width="369" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">How much does this cost?  -  kam yukalif hadha?
 </string>
@@ -1361,7 +1178,7 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1A-Kq-VUO">
-                                <rect key="frame" x="14" y="373" width="211" height="39"/>
+                                <rect key="frame" x="16" y="380" width="211" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Thank you  -  shukraan jzyla
 </string>
@@ -1370,42 +1187,17 @@ Cg
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Excuse me  -  efu" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CkA-j3-2k0">
-                                <rect key="frame" x="16" y="400" width="132" height="20"/>
+                                <rect key="frame" x="18" y="407" width="132" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o89-cB-Unf">
-                                <rect key="frame" x="14" y="428" width="230" height="39"/>
+                                <rect key="frame" x="16" y="435" width="230" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Yes &amp; no  -  nem fielaan &amp; la
 
-</string>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEX-7m-eb9">
-                                <rect key="frame" x="16" y="469" width="172" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CW3-eT-4E5">
-                                <rect key="frame" x="16" y="499" width="77" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">911 → 999
-</string>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m6A-cg-4Rs">
-                                <rect key="frame" x="16" y="525" width="133" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Ambulance → 998
 </string>
                                 <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1415,12 +1207,13 @@ Cg
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <viewLayoutGuide key="safeArea" id="ack-fE-tcI"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="SSZ-al-pH8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jji-L3-xxM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4996" y="-475.41229385307349"/>
+            <point key="canvasLocation" x="7813.6000000000004" y="-475.41229385307349"/>
         </scene>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="MtX-X6-PwF">
             <objects>
                 <viewController id="Qtm-Rk-0sj" sceneMemberID="viewController">
@@ -1428,21 +1221,21 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="londonback" translatesAutoresizingMaskIntoConstraints="NO" id="1DL-8q-txg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="londonback" translatesAutoresizingMaskIntoConstraints="NO" id="1DL-8q-txg">
                                 <rect key="frame" x="-245" y="-250" width="1117" height="1210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5mb-lg-r0v">
+                                <rect key="frame" x="-235" y="-240" width="172" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="London (English)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nbe-ms-aiO">
                                 <rect key="frame" x="40" y="74" width="295" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="37"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJX-U6-rTI">
-                                <rect key="frame" x="16" y="131" width="172" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1464,14 +1257,700 @@ Cg
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Currency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gr-Ut-ape">
+                                <rect key="frame" x="16" y="228" width="88" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJX-U6-rTI">
+                                <rect key="frame" x="16" y="127" width="202" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="British Pound Sterling ￡" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyk-w5-ExE">
+                                <rect key="frame" x="16" y="262" width="183" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Mzb-Le-2P1"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="7W4-bF-chO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9GE-Pp-ras" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5674.3999999999996" y="-476.31184407796104"/>
+            <point key="canvasLocation" x="9431.2000000000007" y="-476.31184407796104"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="IYo-Sx-JJR">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2xn-AI-7yh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="EPW-lS-vZ4">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="GQf-ZH-frn" kind="relationship" relationship="viewControllers" id="XjO-Ni-9ry"/>
+                        <segue destination="T89-Rq-tGZ" kind="relationship" relationship="viewControllers" id="mWy-s4-VTk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7eK-1E-9Xr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3600.8000000000002" y="-475.41229385307349"/>
+        </scene>
+        <!--Amsterdam View Controller-->
+        <scene sceneID="35K-rn-zjX">
+            <objects>
+                <viewController id="T89-Rq-tGZ" customClass="AmsterdamViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p2s-sQ-ISa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="amsterback" translatesAutoresizingMaskIntoConstraints="NO" id="RcL-8r-8hs">
+                                <rect key="frame" x="-705" y="-49" width="1207" height="732"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiQ-cq-imV">
+                                <rect key="frame" x="-695" y="-39" width="59" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <state key="normal" title="💸"/>
+                                <connections>
+                                    <action selector="moneyAlert:" destination="T89-Rq-tGZ" eventType="touchUpInside" id="KKQ-H9-aRg"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amsterdam (Dutch)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUu-tL-4AV">
+                                <rect key="frame" x="22" y="78" width="336" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="37"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="911 -&gt; 112" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXY-QS-re5">
+                                <rect key="frame" x="16" y="157" width="74" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2I-78-GkR">
+                                <rect key="frame" x="16" y="127" width="202" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Currency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdr-5Y-V7q">
+                                <rect key="frame" x="16" y="213" width="88" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ambulance -&gt; 112" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pK-Jn-Twp">
+                                <rect key="frame" x="16" y="185" width="131" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Euro €" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fnl-HL-OoL">
+                                <rect key="frame" x="16" y="217" width="349" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dyc-mV-ZZo"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="Rcr-jr-41z"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UJf-2p-0hh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4540" y="-1164"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Gy6-PI-enl">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="AfB-XQ-zqg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="nHI-lH-qSz">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Sio-ln-e8Z" kind="relationship" relationship="viewControllers" id="Grn-pA-4tY"/>
+                        <segue destination="lQ3-7K-6je" kind="relationship" relationship="viewControllers" id="ZBl-P1-bWc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8q4-fe-6O9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5244" y="-475.41229385307349"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EeR-QP-qhC">
+            <objects>
+                <viewController id="lQ3-7K-6je" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EZl-wk-dlR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="berlinback" translatesAutoresizingMaskIntoConstraints="NO" id="mW2-d5-xn3">
+                                <rect key="frame" x="-443" y="-151" width="1059" height="992"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fq-mE-ks3">
+                                <rect key="frame" x="-433" y="-141" width="172" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aB-dp-vHH">
+                                <rect key="frame" x="-433" y="-141" width="172" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Berlin (German)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IIv-mo-9AM">
+                                <rect key="frame" x="54" y="72" width="277" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="37"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Currency" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcC-H9-xt5">
+                                <rect key="frame" x="14" y="228" width="88" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLQ-YK-NYf">
+                                <rect key="frame" x="14" y="128" width="202" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gh8-vA-pdj">
+                                <rect key="frame" x="16" y="162" width="124" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">911 → 110
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRm-XH-BIX">
+                                <rect key="frame" x="16" y="191" width="172" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ambulance → 112
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Euro €" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v1T-he-iKQ">
+                                <rect key="frame" x="14" y="262" width="52" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="uvg-SO-8AM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="1rf-j5-gVT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hX-dO-SaL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6181.6000000000004" y="-1164.4677661169417"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="f2Y-MQ-Tnm">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="qtf-Z9-fiy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6nG-tB-WO4">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Rs1-ai-q5h" kind="relationship" relationship="viewControllers" id="oaY-Wr-55h"/>
+                        <segue destination="FaF-Sg-npd" kind="relationship" relationship="viewControllers" id="Wve-5N-6YH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s9f-B7-3Dg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6874.3999999999996" y="-475.41229385307349"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ztn-l3-uQ8">
+            <objects>
+                <viewController id="FaF-Sg-npd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fc3-Mg-G1Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dubaiback" translatesAutoresizingMaskIntoConstraints="NO" id="sHJ-Bn-iFf">
+                                <rect key="frame" x="-459" y="-172" width="1026" height="1010"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wBH-s0-JWJ">
+                                <rect key="frame" x="-449" y="-162" width="77" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">911 → 999
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dubai (Arabic)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2E-e5-7M5">
+                                <rect key="frame" x="65" y="75" width="254" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="37"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mq6-m1-XcT">
+                                <rect key="frame" x="14" y="147" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HrY-Lx-UXG">
+                                <rect key="frame" x="14" y="124" width="202" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Currency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWb-5y-kJ9">
+                                <rect key="frame" x="14" y="215" width="88" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASb-ko-tPx">
+                                <rect key="frame" x="14" y="184" width="133" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ambulance → 998
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zs-wR-UWB">
+                                <rect key="frame" x="15" y="154" width="77" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">911 → 999
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="United Arab Emirates Dirham د.إ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMk-Nh-kM5">
+                                <rect key="frame" x="15" y="243" width="235" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="6NW-HZ-9X2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="fXY-UC-dcQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xro-Ti-2p7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7813.6000000000004" y="-1164.4677661169417"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Nja-Bc-XFP">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="inc-IN-MqA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KQt-oY-aFR">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Qtm-Rk-0sj" kind="relationship" relationship="viewControllers" id="AUB-Dj-DHl"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="unF-VX-chQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8492" y="-476.31184407796104"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="uSF-s1-ztr">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Mo4-cg-ROC" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3tZ-KY-lPP">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zTu-gJ-t8H" kind="relationship" relationship="viewControllers" id="ITZ-xn-6ch"/>
+                        <segue destination="u1I-aF-OHm" kind="relationship" relationship="viewControllers" id="n7o-Me-dy2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LYY-YH-eYf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3589.5999999999999" y="625.63718140929541"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="j3w-4k-Ssz">
+            <objects>
+                <viewController id="u1I-aF-OHm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ncb-hq-ICH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="madridback" translatesAutoresizingMaskIntoConstraints="NO" id="zO4-Pu-d9O">
+                                <rect key="frame" x="-120" y="-137" width="558" height="978"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Madrid (Spain)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5eR-tg-HqA">
+                                <rect key="frame" x="68" y="91" width="260" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mum-dX-zQO">
+                                <rect key="frame" x="20" y="174" width="79" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">911→ 112
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a35-jl-tp7">
+                                <rect key="frame" x="16" y="204" width="150" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ambulance → 112
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m53-ns-hWw">
+                                <rect key="frame" x="16" y="140" width="208" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Currency:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuW-MA-N30">
+                                <rect key="frame" x="16" y="244" width="95" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Euro €" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2i-Ra-9PQ">
+                                <rect key="frame" x="20" y="278" width="59" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gcL-SR-JXN"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="lVg-cX-2TN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sSS-xP-ibf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4540" y="1333"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ifw-Kn-D6y">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="hHB-Os-Ih0" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SWh-mK-nGc">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="QGm-hx-CyN" kind="relationship" relationship="viewControllers" id="HYF-fd-F2T"/>
+                        <segue destination="xwr-Fr-Idv" kind="relationship" relationship="viewControllers" id="QSu-89-zIz"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zwZ-VM-veN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5218.3999999999996" y="631.93403298350825"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="q5F-SY-Kaa">
+            <objects>
+                <viewController id="xwr-Fr-Idv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hCa-cM-iW5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="moscowback" translatesAutoresizingMaskIntoConstraints="NO" id="DmQ-Jl-lX8">
+                                <rect key="frame" x="-136" y="-47" width="621" height="844"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Moscow (Russian)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fP9-QB-oHq">
+                                <rect key="frame" x="30" y="76" width="302" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAT-vO-oX3">
+                                <rect key="frame" x="16" y="125" width="202" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bs-Tp-coP">
+                                <rect key="frame" x="16" y="159" width="86" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">911 → 112
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQg-ln-h52">
+                                <rect key="frame" x="16" y="189" width="142" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ambulance → 103
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="16"/>
+                                <color key="textColor" red="0.992675364" green="0.99597948790000002" blue="0.99583238360000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Currency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PyG-T7-lUS">
+                                <rect key="frame" x="16" y="220" width="88" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Russian Ruble ₽ " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3FA-04-9Ls">
+                                <rect key="frame" x="16" y="254" width="127" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="s4Q-OW-jyF"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="gjT-Oy-dWW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L91-oD-4dm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6158" y="1333"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="htJ-e6-0wJ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Xyp-qt-ioa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vnO-IU-lxv">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8NV-Bq-xkh" kind="relationship" relationship="viewControllers" id="ZwN-wS-pQH"/>
+                        <segue destination="XXA-Ui-O2g" kind="relationship" relationship="viewControllers" id="pfe-Bg-QhF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lW9-4s-ZRG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6874.3999999999996" y="631.93403298350825"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pWY-qw-MKa">
+            <objects>
+                <viewController id="XXA-Ui-O2g" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v36-GC-bFG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="parisback" translatesAutoresizingMaskIntoConstraints="NO" id="0tf-ca-3eB">
+                                <rect key="frame" x="-531" y="45" width="1058" height="650"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Paris (French)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcy-c1-xUp">
+                                <rect key="frame" x="80" y="78" width="234" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8LB-qW-iVi">
+                                <rect key="frame" x="26" y="190" width="141" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ambulance → 15
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oJY-Gh-A1t">
+                                <rect key="frame" x="26" y="127" width="251" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ae7-ec-AoO">
+                                <rect key="frame" x="26" y="160" width="79" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">911→ 112
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Currency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXm-4N-CME">
+                                <rect key="frame" x="26" y="220" width="88" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Euro €" textAlignment="natural" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iv1-7x-owE">
+                                <rect key="frame" x="26" y="241" width="823" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="enQ-88-m3R"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="86o-PY-kOZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZRJ-Nx-ncd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7814" y="1333"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="nDV-nr-CfZ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="WH2-0h-ftg" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kHf-eC-HSQ">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XGb-T3-snD" kind="relationship" relationship="viewControllers" id="PFK-ve-CT2"/>
+                        <segue destination="7hI-6D-8af" kind="relationship" relationship="viewControllers" id="usQ-bo-VtA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hUc-U4-9u2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8519.2000000000007" y="631.93403298350825"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PhB-cE-mRR">
+            <objects>
+                <viewController id="7hI-6D-8af" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qfz-WN-sDx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="romeback" translatesAutoresizingMaskIntoConstraints="NO" id="o6H-oJ-vHQ">
+                                <rect key="frame" x="-372" y="-182" width="1150" height="1109"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Emergency Contacts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xJ-AX-iuy">
+                                <rect key="frame" x="9" y="125" width="202" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Currencies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fsh-zg-4ph">
+                                <rect key="frame" x="9" y="211" width="105" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Rome (Italian)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6U-p4-TjC">
+                                <rect key="frame" x="70" y="76" width="234" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMs-gB-2yt">
+                                <rect key="frame" x="9" y="155" width="76" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">911 → 113
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RlR-y1-waT">
+                                <rect key="frame" x="9" y="183" width="132" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ambulance → 118
+</string>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Euro € and Swiss Franc ₣ " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dy-iX-wDH">
+                                <rect key="frame" x="9" y="245" width="200" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kailasa-Bold" family="Kailasa" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="qMl-lo-lr4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="2e6-VW-Ntq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gfk-Yc-qUf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9458" y="1333"/>
         </scene>
     </scenes>
     <resources>
